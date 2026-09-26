@@ -14,7 +14,7 @@ model = SentenceTransformer("all-MiniLM-L6-v2")
 
 # d = {}
 splitter = RecursiveCharacterTextSplitter(
-        chunk_size=500,      # characters per chunk
+        chunk_size=100,      # characters per chunk
         chunk_overlap=50     # overlap between chunks
     )
 
